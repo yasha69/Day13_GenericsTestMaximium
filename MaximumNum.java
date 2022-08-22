@@ -1,6 +1,6 @@
 package Day13GenericTestMaximium;
 
-public class MaximiumNum <T>{
+public class MaximumNum <T>{
     public static <T extends  Comparable <T>>  T maximumValue( T val1 , T val2, T val3 ,T val4,T val5) {
         T max = val1;
         if (val2.compareTo(max) > 0 ) {

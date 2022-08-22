@@ -3,16 +3,16 @@ package Day13GenericTestMaximium;
 public class MaximiumNum {
     public static void main(String[] args) {
         System.out.println("Welcome to Generic Program.");
-        Integer a = 10, b = 30, c =40;
-        testMaximum (a,b,c);
-    }
-    private static void testMaximum(Integer a, Integer b, Integer c) {
-        Integer max = a;
-        if (b.compareTo(a) > 0) {
-            max = b;
+        Float x = 11.2f, y = 11.8f, z = 11.6f;
+
+        testMaximum(x, y, z); 	}
+    private static void testMaximum(Float x, Float y, Float z) {
+        Float max = x;
+        if (y.compareTo(x) > 0) {
+            max = y;
         }
-        if (c.compareTo(max) > 0) {
-            max = c;
+        if (z.compareTo(max) > 0) {
+            max = z;
         }
         System.out.println("Maximum num is:" + max);
     }
